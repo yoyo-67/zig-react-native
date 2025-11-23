@@ -1,0 +1,47 @@
+{
+  "name": "zig-react-native",
+  "version": "1.0.0",
+  "description": "A React Native module using Zig for high-performance native operations",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "open ios/ZigReactNative.xcworkspace",
+    "open:android": "open -a /Applications/Android\\ Studio.app android",
+    "build:zig": "cd zig_backend && ./build_all.sh"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "zig",
+    "native-module",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/zig-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/zig-react-native/issues"
+  },
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/zig-react-native#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "expo-module-scripts": "^3.5.2",
+    "expo-modules-core": "^1.12.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

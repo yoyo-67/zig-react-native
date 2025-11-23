@@ -1,0 +1,2 @@
+# This directory will contain the built Zig libraries
+# Run 'cd zig_backend && ./build_all.sh' to build

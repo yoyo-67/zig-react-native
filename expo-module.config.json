@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["ZigReactNativeModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.zigreactnative.ZigReactNativeModule"]
+  }
+}
